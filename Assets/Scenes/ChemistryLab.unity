@@ -17296,6 +17296,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 322902070}
+  - component: {fileID: 322902071}
   m_Layer: 0
   m_Name: ChemistryLabPractice
   m_TagString: Untagged
@@ -17324,6 +17325,20 @@ Transform:
   - {fileID: 1590998947}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &322902071
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 322902069}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a8aed5ce2e15734b806a171639dbcc3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  btn: {fileID: 1297732448}
+  PTButton: {fileID: 1297732446}
 --- !u!1 &324428543
 GameObject:
   m_ObjectHideFlags: 0
